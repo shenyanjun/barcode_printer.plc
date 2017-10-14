@@ -1,0 +1,222 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01DFA526-6AA2-4A78-8B52-8DB919A41C93}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>barcode_printer</RootNamespace>
+    <AssemblyName>barcode_printer</AssemblyName>
+    <ApplicationIcon>jcb.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86" />
+    <Reference Include="Janus.Data.v3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=04fbad2612a436bd, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.Common.v3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=04fbad2612a436bd, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.GridEX.v3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=04fbad2612a436bd, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.UI.v3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=04fbad2612a436bd, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dataConfig.cs" />
+    <Compile Include="echo_msg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="echo_msg.Designer.cs">
+      <DependentUpon>echo_msg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreatedatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreatedatabase.Designer.cs">
+      <DependentUpon>frmCreatedatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrinterset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrinterset.Designer.cs">
+      <DependentUpon>frmPrinterset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintMinMax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintMinMax.Designer.cs">
+      <DependentUpon>frmPrintMinMax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectPrintSN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectPrintSN.Designer.cs">
+      <DependentUpon>frmSelectPrintSN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ini_util.cs" />
+    <Compile Include="proto.cs" />
+    <Compile Include="proto_parase.cs" />
+    <Compile Include="mainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainFrm.Designer.cs">
+      <DependentUpon>mainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="echo_msg.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>echo_msg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="echo_msg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>echo_msg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreatedatabase.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCreatedatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreatedatabase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCreatedatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrinterset.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrinterset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrinterset.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrinterset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintMinMax.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrintMinMax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintMinMax.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrintMinMax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPrintSN.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectPrintSN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPrintSN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectPrintSN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainFrm.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>mainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>mainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="warnDlg.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>warnDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="warnDlg.resx">
+      <DependentUpon>warnDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="req_data_helper.cs" />
+    <Compile Include="scanner.cs" />
+    <Compile Include="sn_property.cs" />
+    <Compile Include="Sqlite3package.cs" />
+    <Compile Include="user_info.cs" />
+    <Compile Include="warnDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="warnDlg.designer.cs">
+      <DependentUpon>warnDlg.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\printer_dev\printer_dev.csproj">
+      <Project>{E2BDAC0A-9D4A-4C75-B63B-2ABB6CFDE63D}</Project>
+      <Name>printer_dev</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReadBarCode\ReadBarCode.csproj">
+      <Project>{A412D6DD-2A57-48E3-91EF-FB2B10A6DD9C}</Project>
+      <Name>ReadBarCode</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="jcb.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnFresh.Text" xml:space="preserve">
+    <value>enume all serial ports</value>
+  </data>
+  <data name="btnOpen.Text" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>enume all serial ports</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>enume all serial ports</value>
+  </data>
+  <data name="cmbComList.Items" xml:space="preserve">
+    <value>COM1</value>
+  </data>
+  <data name="cmbComList.Items1" xml:space="preserve">
+    <value>COM2</value>
+  </data>
+  <data name="cmbComList.Items10" xml:space="preserve">
+    <value>COM11</value>
+  </data>
+  <data name="cmbComList.Items11" xml:space="preserve">
+    <value>COM12</value>
+  </data>
+  <data name="cmbComList.Items12" xml:space="preserve">
+    <value>COM13</value>
+  </data>
+  <data name="cmbComList.Items13" xml:space="preserve">
+    <value>COM14</value>
+  </data>
+  <data name="cmbComList.Items14" xml:space="preserve">
+    <value>COM15</value>
+  </data>
+  <data name="cmbComList.Items2" xml:space="preserve">
+    <value>COM3</value>
+  </data>
+  <data name="cmbComList.Items3" xml:space="preserve">
+    <value>COM4</value>
+  </data>
+  <data name="cmbComList.Items4" xml:space="preserve">
+    <value>COM5</value>
+  </data>
+  <data name="cmbComList.Items5" xml:space="preserve">
+    <value>COM6</value>
+  </data>
+  <data name="cmbComList.Items6" xml:space="preserve">
+    <value>COM7</value>
+  </data>
+  <data name="cmbComList.Items7" xml:space="preserve">
+    <value>COM8</value>
+  </data>
+  <data name="cmbComList.Items8" xml:space="preserve">
+    <value>COM9</value>
+  </data>
+  <data name="cmbComList.Items9" xml:space="preserve">
+    <value>COM10</value>
+  </data>
+  <data name="cmbSpeedList.Items" xml:space="preserve">
+    <value>4800</value>
+  </data>
+  <data name="cmbSpeedList.Items1" xml:space="preserve">
+    <value>9600</value>
+  </data>
+  <data name="cmbSpeedList.Items2" xml:space="preserve">
+    <value>14400</value>
+  </data>
+  <data name="cmbSpeedList.Items3" xml:space="preserve">
+    <value>19200</value>
+  </data>
+  <data name="cmbSpeedList.Items4" xml:space="preserve">
+    <value>38400</value>
+  </data>
+  <data name="cmbSpeedList.Items5" xml:space="preserve">
+    <value>56000</value>
+  </data>
+  <data name="cmbSpeedList.Items6" xml:space="preserve">
+    <value>57600</value>
+  </data>
+  <data name="cmbSpeedList.Items7" xml:space="preserve">
+    <value>115200</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>COM1</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>COM2</value>
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>COM11</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>COM12</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>COM13</value>
+  </data>
+  <data name="comboBox1.Items13" xml:space="preserve">
+    <value>COM14</value>
+  </data>
+  <data name="comboBox1.Items14" xml:space="preserve">
+    <value>COM15</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>COM3</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>COM4</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>COM5</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>COM6</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>COM7</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>COM8</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>COM9</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value>COM10</value>
+  </data>
+  <data name="comboBox2.Items" xml:space="preserve">
+    <value>4800</value>
+  </data>
+  <data name="comboBox2.Items1" xml:space="preserve">
+    <value>9600</value>
+  </data>
+  <data name="comboBox2.Items2" xml:space="preserve">
+    <value>14400</value>
+  </data>
+  <data name="comboBox2.Items3" xml:space="preserve">
+    <value>19200</value>
+  </data>
+  <data name="comboBox2.Items4" xml:space="preserve">
+    <value>38400</value>
+  </data>
+  <data name="comboBox2.Items5" xml:space="preserve">
+    <value>56000</value>
+  </data>
+  <data name="comboBox2.Items6" xml:space="preserve">
+    <value>57600</value>
+  </data>
+  <data name="comboBox2.Items7" xml:space="preserve">
+    <value>115200</value>
+  </data>
+  <data name="comboBox3.Items" xml:space="preserve">
+    <value>COM1</value>
+  </data>
+  <data name="comboBox3.Items1" xml:space="preserve">
+    <value>COM2</value>
+  </data>
+  <data name="comboBox3.Items10" xml:space="preserve">
+    <value>COM11</value>
+  </data>
+  <data name="comboBox3.Items11" xml:space="preserve">
+    <value>COM12</value>
+  </data>
+  <data name="comboBox3.Items12" xml:space="preserve">
+    <value>COM13</value>
+  </data>
+  <data name="comboBox3.Items13" xml:space="preserve">
+    <value>COM14</value>
+  </data>
+  <data name="comboBox3.Items14" xml:space="preserve">
+    <value>COM15</value>
+  </data>
+  <data name="comboBox3.Items2" xml:space="preserve">
+    <value>COM3</value>
+  </data>
+  <data name="comboBox3.Items3" xml:space="preserve">
+    <value>COM4</value>
+  </data>
+  <data name="comboBox3.Items4" xml:space="preserve">
+    <value>COM5</value>
+  </data>
+  <data name="comboBox3.Items5" xml:space="preserve">
+    <value>COM6</value>
+  </data>
+  <data name="comboBox3.Items6" xml:space="preserve">
+    <value>COM7</value>
+  </data>
+  <data name="comboBox3.Items7" xml:space="preserve">
+    <value>COM8</value>
+  </data>
+  <data name="comboBox3.Items8" xml:space="preserve">
+    <value>COM9</value>
+  </data>
+  <data name="comboBox3.Items9" xml:space="preserve">
+    <value>COM10</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>select plc's com port:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>select print's com port</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>set com speed:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>set com speed:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>select scaner's com port:</value>
+  </data>
+</root>

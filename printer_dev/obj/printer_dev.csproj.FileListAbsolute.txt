@@ -1,0 +1,15 @@
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文)\barcode_printer\printer_dev\bin\Debug\printer_dev.dll
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文)\barcode_printer\printer_dev\bin\Debug\printer_dev.pdb
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文)\barcode_printer\printer_dev\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文)\barcode_printer\printer_dev\obj\Debug\printer_dev.dll
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文)\barcode_printer\printer_dev\obj\Debug\printer_dev.pdb
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\bin\Debug\printer_dev.dll
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\bin\Debug\printer_dev.pdb
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\obj\Debug\printer_dev.dll
+C:\Users\Administrator\Downloads\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\obj\Debug\printer_dev.pdb
+D:\华工(2017.6.6)\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\bin\Debug\printer_dev.dll
+D:\华工(2017.6.6)\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\bin\Debug\printer_dev.pdb
+D:\华工(2017.6.6)\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\obj\Debug\ResolveAssemblyReference.cache
+D:\华工(2017.6.6)\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\obj\Debug\printer_dev.dll
+D:\华工(2017.6.6)\barcode_printer(加了中英文并计入机器检测)\barcode_printer\printer_dev\obj\Debug\printer_dev.pdb
